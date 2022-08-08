@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 //import 'package:flutter_full_learn/101/Icon_learn.dart';
 import 'package:flutter_full_learn/101/color_learn.dart';
+import 'package:flutter_full_learn/101/padding_learn.dart';
 
 import '101/stateless_larn.dart';
 //import 'package:flutter_full_learn/101/container_sized_box_learn.dart';
@@ -32,9 +33,9 @@ class MyApp extends StatelessWidget {
           // Appbar'ın hemen üstündeki yer.
           systemOverlayStyle: SystemUiOverlayStyle.light,
           centerTitle: true,
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.indigo,
           elevation: 0,
         )),
-        home: StateLessLearn());
+        home: const PaddingLearnView());
   }
 }
